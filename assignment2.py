@@ -9,10 +9,10 @@ print("Acad"+"view")#join two string
 
 
 #Q3
-x=1
-y=2
-z=3
-print(x,y,z )#print values of x,y,z
+x=input("enter no. for x")
+y=input("enter no. for y")
+z=input("enter no. for z")
+print(x,y,z )#input values of x,y,z
 
 
 
