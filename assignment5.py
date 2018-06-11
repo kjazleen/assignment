@@ -36,14 +36,14 @@ else:
 
 #Q4 prizes on the basis of points
 p=int(input("enter the no. pf points scored="))
-if(p<=50):
-    print("no prize")
+if(p>1 and p<=50):
+    print("sorry!no prize for this item")
 elif(p<=150):
-    print("wooden dog")
+    print("congratulation!you won a [wooden dog]")
 elif(p<=180):
-    print("book")
+    print("congratulation! you won a [book]")
 elif(p<=200):
-    print("chocolates")
+    print("congratulation! you one a [chocolates]")
 
 #Q5 print cost after discount if purchased quantity is more dn 1000
 q=int(input("quantity="))
