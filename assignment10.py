@@ -1,12 +1,12 @@
 #Q1
-'''class Animal:
+class Animal:
     def animal_attribute(self):
         print("this animal has four legs")
 class Tiger(Animal):
     def animal_type(self):
         print("its a carnivore")
 x=Tiger()
-x.animal_attribute()'''
+x.animal_attribute()
 
 
 #Q2 result:
@@ -59,7 +59,7 @@ n.add_mission_details(name,age,work_experience,designation)
 
 
 #Q4
-'''class Shape:
+class Shape:
    def __init__(self,length,breadth):
        self.length=length
        self.breadth=breadth
@@ -76,7 +76,7 @@ class Square(Shape):
 r=Rectangle(2,4)
 s=Square(4,4)
 r.area()
-s.area()'''
+s.area()
 
 
 
