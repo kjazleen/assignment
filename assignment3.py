@@ -1,5 +1,5 @@
 #Q1
-3l=[]
+l=[]
 a=input("enter no.")
 l.append(a)
 print(l)
